@@ -43,7 +43,6 @@ public class ItemsAdapter extends RecyclerView.Adapter<ItemsAdapter.ViewHolder> 
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         holder.titleTxt.setText(items.get(position).getTitle());
         holder.addressTxt.setText(items.get(position).getAddress());
-        holder.priceTxt.setText("$" + formatter.format(items.get(position).getPrice()));
 
         Log.d("TAG", "pic = " + items.get(position).getPic());
 
@@ -66,14 +65,13 @@ public class ItemsAdapter extends RecyclerView.Adapter<ItemsAdapter.ViewHolder> 
 
     public class ViewHolder extends RecyclerView.ViewHolder {
 
-        TextView titleTxt, addressTxt, priceTxt;
+        TextView titleTxt, addressTxt;
         ImageView pic;
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             titleTxt = itemView.findViewById(R.id.titleTxt);
             addressTxt = itemView.findViewById(R.id.addressTxt);
-            priceTxt = itemView.findViewById(R.id.priceTxt);
             pic = itemView.findViewById(R.id.pic);
         }
     }

@@ -39,25 +39,25 @@ public class MainActivity extends AppCompatActivity {
                 "architecTural features and high-end finishes.\n" +
                 " Feel inspired by open sight lines that\n" +
                 "embrace the outdoors, crowned by stunnin\n" +
-                " coffersd ceilings. ", 2, 1, 841456, "pic1", true));
+                " coffersd ceilings. ", "pic1"));
         PeopleItemsArrayList.add(new ItemsDomain("House with a great view", "San Francisco, CA 94110", "This 2 bed /1 bath home boasts an enormouse,\n" +
                 "open-living plan, accented by striking \n" +
                 "architecTural features and high-end finishes.\n" +
                 " Feel inspired by open sight lines that\n" +
                 "embrace the outdoors, crowned by stunnin\n" +
-                " coffersd ceilings. ", 3, 1, 654987, "pic2", false));
+                " coffersd ceilings. ", "pic2"));
         PeopleItemsArrayList.add(new ItemsDomain("House with a great view", "San Francisco, CA 94110", "This 2 bed /1 bath home boasts an enormouse,\n" +
                 "open-living plan, accented by striking \n" +
                 "architecTural features and high-end finishes.\n" +
                 " Feel inspired by open sight lines that\n" +
                 "embrace the outdoors, crowned by stunnin\n" +
-                " coffersd ceilings. ", 3, 1, 841456, "pic1", true));
+                " coffersd ceilings. ", "pic1"));
 
         // Info表示用データ作成
         ArrayList<ItemsDomain> InfoItemsArrayList = new ArrayList<>();
-        InfoItemsArrayList.add(new ItemsDomain("入社前研修", "株式会社ITPM本社・会議室", "", 2, 1, 1, "pic_info2", true));
-        InfoItemsArrayList.add(new ItemsDomain("神田カレーフェア", "", "", 2, 1, 1, "pic_info1", true));
-        InfoItemsArrayList.add(new ItemsDomain("", "", "", 2, 1, 1, "pic_info1", true));
+        InfoItemsArrayList.add(new ItemsDomain("入社前研修", "株式会社ITPM本社・会議室", "", "pic_info2"));
+        InfoItemsArrayList.add(new ItemsDomain("神田カレーフェア", "", "", "pic_info1"));
+        InfoItemsArrayList.add(new ItemsDomain("", "", "", "pic_info1"));
 
         recyclerViewPeople = findViewById(R.id.viewPopular);
         recyclerviewInfo = findViewById(R.id.viewNew);

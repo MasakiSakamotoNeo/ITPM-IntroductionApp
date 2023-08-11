@@ -46,6 +46,12 @@ public class MainActivity extends AppCompatActivity {
                 "embrace the outdoors, crowned by stunnin\n" +
                 " coffersd ceilings. ", 3, 1, 841456, "pic1", true));
 
+        // Info表示用データ作成
+        ArrayList<ItemsDomain> InfoItemsArrayList = new ArrayList<>();
+        InfoItemsArrayList.add(new ItemsDomain("", "", "", 2, 1, 1, "pic_info1", true));
+        InfoItemsArrayList.add(new ItemsDomain("", "", "", 2, 1, 1, "pic_info1", true));
+        InfoItemsArrayList.add(new ItemsDomain("", "", "", 2, 1, 1, "pic_info1", true));
+
         recyclerViewPopular = findViewById(R.id.viewPopular);
         recyclerviewNew = findViewById(R.id.viewNew);
 
@@ -53,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
         recyclerviewNew.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
 
         adapterPopular = new ItemsAdapter(ItemsArrayList);
-        adapterNew = new ItemsAdapter(ItemsArrayList);
+        adapterNew = new ItemsAdapter(InfoItemsArrayList);
 
         recyclerViewPopular.setAdapter(adapterPopular);
         recyclerviewNew.setAdapter(adapterNew);

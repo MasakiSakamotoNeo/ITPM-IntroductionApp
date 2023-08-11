@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">ITPMIntroductionApp</string>
+    <string name="intro_title">未来のITエンジニア</string>
+    <string name="intro_sub_title">理想の働き方を手に入れよう！</string>
+    <string name="msg_intro_btn">覗いてみる</string>
 </resources>

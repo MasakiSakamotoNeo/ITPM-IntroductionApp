@@ -12,10 +12,13 @@ import com.example.itpmintroductionapp.domain.ItemsDomain;
 
 import java.util.ArrayList;
 
+/**
+ * メイン画面
+ */
 public class MainActivity extends AppCompatActivity {
 
-    private RecyclerView.Adapter adapterPopular, adapterNew;
-    private RecyclerView recyclerViewPopular, recyclerviewNew;
+    private RecyclerView.Adapter adapterPeople, adapterInfo;
+    private RecyclerView recyclerViewPeople, recyclerviewInfo;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,21 +28,25 @@ public class MainActivity extends AppCompatActivity {
         initRecyclerView();
     }
 
+    /**
+     * RecyclerViewの初期化
+     */
     private void initRecyclerView() {
-        ArrayList<ItemsDomain> ItemsArrayList = new ArrayList<>();
-        ItemsArrayList.add(new ItemsDomain("House with a great view", "San Francisco, CA 94110", "This 2 bed /1 bath home boasts an enormouse,\n" +
+        // People表示用データ作成
+        ArrayList<ItemsDomain> PeopleItemsArrayList = new ArrayList<>();
+        PeopleItemsArrayList.add(new ItemsDomain("House with a great view", "San Francisco, CA 94110", "This 2 bed /1 bath home boasts an enormouse,\n" +
                 "open-living plan, accented by striking \n" +
                 "architecTural features and high-end finishes.\n" +
                 " Feel inspired by open sight lines that\n" +
                 "embrace the outdoors, crowned by stunnin\n" +
                 " coffersd ceilings. ", 2, 1, 841456, "pic1", true));
-        ItemsArrayList.add(new ItemsDomain("House with a great view", "San Francisco, CA 94110", "This 2 bed /1 bath home boasts an enormouse,\n" +
+        PeopleItemsArrayList.add(new ItemsDomain("House with a great view", "San Francisco, CA 94110", "This 2 bed /1 bath home boasts an enormouse,\n" +
                 "open-living plan, accented by striking \n" +
                 "architecTural features and high-end finishes.\n" +
                 " Feel inspired by open sight lines that\n" +
                 "embrace the outdoors, crowned by stunnin\n" +
                 " coffersd ceilings. ", 3, 1, 654987, "pic2", false));
-        ItemsArrayList.add(new ItemsDomain("House with a great view", "San Francisco, CA 94110", "This 2 bed /1 bath home boasts an enormouse,\n" +
+        PeopleItemsArrayList.add(new ItemsDomain("House with a great view", "San Francisco, CA 94110", "This 2 bed /1 bath home boasts an enormouse,\n" +
                 "open-living plan, accented by striking \n" +
                 "architecTural features and high-end finishes.\n" +
                 " Feel inspired by open sight lines that\n" +
@@ -48,20 +55,20 @@ public class MainActivity extends AppCompatActivity {
 
         // Info表示用データ作成
         ArrayList<ItemsDomain> InfoItemsArrayList = new ArrayList<>();
+        InfoItemsArrayList.add(new ItemsDomain("入社前研修", "株式会社ITPM本社・会議室", "", 2, 1, 1, "pic_info2", true));
+        InfoItemsArrayList.add(new ItemsDomain("神田カレーフェア", "", "", 2, 1, 1, "pic_info1", true));
         InfoItemsArrayList.add(new ItemsDomain("", "", "", 2, 1, 1, "pic_info1", true));
-        InfoItemsArrayList.add(new ItemsDomain("", "", "", 2, 1, 1, "pic_info1", true));
-        InfoItemsArrayList.add(new ItemsDomain("", "", "", 2, 1, 1, "pic_info1", true));
 
-        recyclerViewPopular = findViewById(R.id.viewPopular);
-        recyclerviewNew = findViewById(R.id.viewNew);
+        recyclerViewPeople = findViewById(R.id.viewPopular);
+        recyclerviewInfo = findViewById(R.id.viewNew);
 
-        recyclerViewPopular.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
-        recyclerviewNew.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
+        recyclerViewPeople.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
+        recyclerviewInfo.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
 
-        adapterPopular = new ItemsAdapter(ItemsArrayList);
-        adapterNew = new ItemsAdapter(InfoItemsArrayList);
+        adapterPeople = new ItemsAdapter(PeopleItemsArrayList);
+        adapterInfo = new ItemsAdapter(InfoItemsArrayList);
 
-        recyclerViewPopular.setAdapter(adapterPopular);
-        recyclerviewNew.setAdapter(adapterNew);
+        recyclerViewPeople.setAdapter(adapterPeople);
+        recyclerviewInfo.setAdapter(adapterInfo);
     }
 }

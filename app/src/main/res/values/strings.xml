@@ -3,4 +3,10 @@
     <string name="intro_title">未来のITエンジニア</string>
     <string name="intro_sub_title">理想の働き方を手に入れよう！</string>
     <string name="msg_intro_btn">覗いてみる</string>
+    <string name="welcome">ようこそ ITPMへ</string>
+    <string name="sakamoto_name">坂本 将紀</string>
+    <string name="searching_for">検索...</string>
+    <string name="see_all">すべて見る</string>
+    <string name="info">Info</string>
+    <string name="people">People</string>
 </resources>

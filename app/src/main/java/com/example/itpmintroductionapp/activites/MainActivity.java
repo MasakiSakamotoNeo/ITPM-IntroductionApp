@@ -55,9 +55,18 @@ public class MainActivity extends AppCompatActivity {
 
         // Info表示用データ作成
         ArrayList<ItemsDomain> InfoItemsArrayList = new ArrayList<>();
-        InfoItemsArrayList.add(new ItemsDomain("入社前研修", "株式会社ITPM本社・会議室", "", "pic_info2"));
-        InfoItemsArrayList.add(new ItemsDomain("神田カレーフェア", "", "", "pic_info1"));
-        InfoItemsArrayList.add(new ItemsDomain("", "", "", "pic_info1"));
+        InfoItemsArrayList.add(new ItemsDomain("教育プログラム", "株式会社ITPM本社・会議室",
+                "エンジニアとしてのスキルアップはもちろん、社会人として必要なビジネススキルアップも" +
+                        "フォローしています。\nビジネスマナー研修では、ビジネスマナーの「基本」を学びます。挨拶、" +
+                        "身だしなみ・正しい言葉づかい・職場でのマナーなど、社会人としての大切な研修です\n" +
+                        "ITセミナーでは、「エンジニアの仕事って？」「PMOの仕事って？」などなど、" +
+                        "IT業界のいろはをIT業界のスペシャリスト達から丁寧に教えてもらい、学ぶ大切な研修です\n" +
+                        "それ以外にもスキルアップの場として勉強会の実施を行ったりしています。", "pic_info2"));
+        InfoItemsArrayList.add(new ItemsDomain("神田カレーグランプリ 2023", "神田カレー街",
+                "400店以上が集まる日本有数のカレーの聖地神田のカレーを食べ尽くし、栄光の神田カレーマイスターを目指すイベント" +
+                        "「神田カレー街食べ歩きスタンプラリー2023」\n千代田区観光教会観光大使のリラックマも応援してくれています。\n" +
+                        "株式会社ITPMは神田カレーグランプリのサポーターとして参加、応援しています。", "pic_info1"));
+        InfoItemsArrayList.add(new ItemsDomain("", "", "", "pic_info3"));
 
         recyclerViewPeople = findViewById(R.id.viewPopular);
         recyclerviewInfo = findViewById(R.id.viewNew);

@@ -54,7 +54,6 @@
                     android:id="@+id/titleTxt"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="House with a great view"
                     android:textColor="@color/white"
                     android:textSize="21sp"
                     android:textStyle="bold"
@@ -66,7 +65,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
-                    android:text="San Francisco, CA 94110"
                     android:textColor="@color/white"
                     android:textSize="17sp"
                     app:layout_constraintBottom_toBottomOf="@+id/imageView7"
@@ -79,10 +77,10 @@
                 android:id="@+id/textView18"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Description"
+                android:text="@string/description"
                 android:textStyle="bold"
                 android:textSize="20sp"
-                android:textColor="#000000"
+                android:textColor="@color/black"
                 android:layout_marginTop="16dp"
                 android:layout_marginStart="32dp"/>
 
@@ -90,15 +88,14 @@
                 android:id="@+id/descriptionTxt"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="This 2 bed/1 bath home boasts an enormous.open living plan, accented by striking architectural features and high-end finishes. Feel inspired by open sight lines that embrace the outdoors, crowned by stunning coffered ceilings."
                 android:layout_marginStart="32dp"
                 android:layout_marginEnd="32dp"
                 android:layout_marginTop="8dp"
-                android:textColor="#000000"
+                android:textColor="@color/black"
                 android:textSize="16sp"/>
 
             <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/button"
+                android:id="@+id/goodBtn"
                 style="@android:style/Widget.Button"
                 android:layout_margin="32dp"
                 android:background="@drawable/background_btn"
@@ -107,7 +104,7 @@
                 android:textColor="@color/white"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Buy Now" />
+                android:text="@string/good" />
 
         </LinearLayout>
     </ScrollView>

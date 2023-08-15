@@ -1,5 +1,9 @@
 # ITPM-アプリ開発体験アプリ
 
+![top](https://github.com/MasakiSakamotoNeo/ITPM-IntroductionApp/assets/20450429/e710f7c8-a3af-41f9-9302-7ad084ba9ac8)
+![main](https://github.com/MasakiSakamotoNeo/ITPM-IntroductionApp/assets/20450429/c85ed7dc-a4eb-4b6f-9a9e-50239f5b6b7f)
+![description](https://github.com/MasakiSakamotoNeo/ITPM-IntroductionApp/assets/20450429/a8d65cd0-9add-4cbc-acaf-dfe161d7d7cf)
+
 ## 概要
 第２回 ITデジタル転職展 合同就職説明会/面接会「デジタルワーク体験コーナー」で実施する。
 アプリ開発体験で使用するアプリ。

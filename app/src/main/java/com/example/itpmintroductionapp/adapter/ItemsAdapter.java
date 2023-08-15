@@ -2,7 +2,6 @@ package com.example.itpmintroductionapp.adapter;
 
 import android.content.Context;
 import android.content.Intent;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -17,18 +16,15 @@ import com.example.itpmintroductionapp.R;
 import com.example.itpmintroductionapp.activites.DetailActivity;
 import com.example.itpmintroductionapp.domain.ItemsDomain;
 
-import java.text.DecimalFormat;
 import java.util.ArrayList;
 
 public class ItemsAdapter extends RecyclerView.Adapter<ItemsAdapter.ViewHolder> {
 
     ArrayList<ItemsDomain> items;
-    DecimalFormat formatter;
     Context context;
 
     public ItemsAdapter(ArrayList<ItemsDomain> items) {
         this.items = items;
-        formatter = new DecimalFormat("###,###,###,###.##");
     }
 
     @NonNull
@@ -43,8 +39,6 @@ public class ItemsAdapter extends RecyclerView.Adapter<ItemsAdapter.ViewHolder> 
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         holder.titleTxt.setText(items.get(position).getTitle());
         holder.addressTxt.setText(items.get(position).getAddress());
-
-        Log.d("TAG", "pic = " + items.get(position).getPic());
 
         int drawableResourceId = holder.itemView.getResources().getIdentifier(items.get(position).getPic(), "drawable", holder.itemView.getContext().getPackageName());
         Glide.with(holder.itemView.getContext())

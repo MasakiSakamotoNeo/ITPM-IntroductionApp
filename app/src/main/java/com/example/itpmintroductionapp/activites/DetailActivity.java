@@ -33,6 +33,9 @@ public class DetailActivity extends AppCompatActivity {
         setVariable();
     }
 
+    /**
+     * Viewの初期化
+     */
     private void initView() {
         titleTxt = findViewById(R.id.titleTxt);
         addressTxt = findViewById(R.id.addressTxt);
@@ -59,7 +62,11 @@ public class DetailActivity extends AppCompatActivity {
         });
     }
 
+    /**
+     * いいねメッセージ表示
+     * @param view
+     */
     private void showSnackBar(View view) {
-        Snackbar.make(view, "いいねをしました。", Snackbar.LENGTH_SHORT).show();
+        Snackbar.make(view, R.string.liked, Snackbar.LENGTH_SHORT).show();
     }
 }

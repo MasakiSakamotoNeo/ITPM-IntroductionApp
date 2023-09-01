@@ -100,15 +100,15 @@
                         android:layout_weight="0.5"
                         android:background="@drawable/cat_background">
 
-                        <ImageView
-                            android:id="@+id/imageView4"
+                        <com.makeramen.roundedimageview.RoundedImageView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginEnd="8dp"
+                            android:src="@drawable/department_kanri"
+                            app:riv_corner_radius="10dp"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintTop_toTopOf="parent"
-                            app:srcCompat="@drawable/cat_1" />
+                            app:layout_constraintTop_toTopOf="parent" />
 
                         <TextView
                             android:id="@+id/textView5"
@@ -131,15 +131,15 @@
                         android:layout_weight="0.5"
                         android:background="@drawable/cat_background">
 
-                        <ImageView
-                            android:id="@+id/imageView6"
+                        <com.makeramen.roundedimageview.RoundedImageView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginEnd="8dp"
+                            android:src="@drawable/department_hr"
+                            app:riv_corner_radius="10dp"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintTop_toTopOf="parent"
-                            app:srcCompat="@drawable/cat_2" />
+                            app:layout_constraintTop_toTopOf="parent" />
 
                         <TextView
                             android:id="@+id/textView7"
@@ -169,15 +169,15 @@
                         android:layout_weight="0.5"
                         android:background="@drawable/cat_background">
 
-                        <ImageView
-                            android:id="@+id/imageView8"
+                        <com.makeramen.roundedimageview.RoundedImageView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginEnd="8dp"
+                            android:src="@drawable/department_sales"
+                            app:riv_corner_radius="10dp"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintTop_toTopOf="parent"
-                            app:srcCompat="@drawable/cat_3" />
+                            app:layout_constraintTop_toTopOf="parent" />
 
                         <TextView
                             android:id="@+id/textView9"
@@ -200,15 +200,16 @@
                         android:layout_weight="0.5"
                         android:background="@drawable/cat_background">
 
-                        <ImageView
+                        <com.makeramen.roundedimageview.RoundedImageView
                             android:id="@+id/imageView10"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginEnd="8dp"
+                            android:src="@drawable/department_its"
+                            app:riv_corner_radius="10dp"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintTop_toTopOf="parent"
-                            app:srcCompat="@drawable/cat_4" />
+                            app:layout_constraintTop_toTopOf="parent" />
 
                         <TextView
                             android:id="@+id/textView11"

@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         ArrayList<ItemsDomain> PeopleItemsArrayList = new ArrayList<>();
         PeopleItemsArrayList.add(new ItemsDomain(
                 "House with a great view",
-                "San Francisco, CA 94110",
+                "株式会社ITPM本社・執務室",
                 "This 2 bed /1 bath home boasts an enormouse,\n" +
                 "open-living plan, accented by striking \n" +
                 "architecTural features and high-end finishes.\n" +
@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
         ));
         PeopleItemsArrayList.add(new ItemsDomain(
                 "House with a great view",
-                "San Francisco, CA 94110",
+                "株式会社ITPM本社・執務室",
                 "This 2 bed /1 bath home boasts an enormouse,\n" +
                 "open-living plan, accented by striking \n" +
                 "architecTural features and high-end finishes.\n" +
@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
         ));
         PeopleItemsArrayList.add(new ItemsDomain(
                 "House with a great view",
-                "San Francisco, CA 94110",
+                "株式会社ITPM本社・執務室",
                 "This 2 bed /1 bath home boasts an enormouse,\n" +
                 "open-living plan, accented by striking \n" +
                 "architecTural features and high-end finishes.\n" +
@@ -66,6 +66,12 @@ public class MainActivity extends AppCompatActivity {
                 "embrace the outdoors, crowned by stunnin\n" +
                 " coffersd ceilings. ",
                 "pic1"
+        ));
+        PeopleItemsArrayList.add(new ItemsDomain(
+                "管理部の人々",
+                "株式会社ITPM本社・執務室",
+                "",
+                "pic_people4"
         ));
 
         // Info表示用データ作成

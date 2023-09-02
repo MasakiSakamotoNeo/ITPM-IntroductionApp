@@ -35,42 +35,27 @@ public class MainActivity extends AppCompatActivity {
         // People表示用データ作成
         ArrayList<ItemsDomain> PeopleItemsArrayList = new ArrayList<>();
         PeopleItemsArrayList.add(new ItemsDomain(
-                "House with a great view",
-                "株式会社ITPM本社・執務室",
-                "This 2 bed /1 bath home boasts an enormouse,\n" +
-                "open-living plan, accented by striking \n" +
-                "architecTural features and high-end finishes.\n" +
-                " Feel inspired by open sight lines that\n" +
-                "embrace the outdoors, crowned by stunnin\n" +
-                " coffersd ceilings. ",
-                "pic1"
+                getString(R.string.hr_department_people_title),
+                getString(R.string.hr_department_people_address),
+                getString(R.string.hr_department_people_description),
+                "pic_people1"
         ));
         PeopleItemsArrayList.add(new ItemsDomain(
-                "House with a great view",
-                "株式会社ITPM本社・執務室",
-                "This 2 bed /1 bath home boasts an enormouse,\n" +
-                "open-living plan, accented by striking \n" +
-                "architecTural features and high-end finishes.\n" +
-                " Feel inspired by open sight lines that\n" +
-                "embrace the outdoors, crowned by stunnin\n" +
-                " coffersd ceilings. ",
-                "pic2"
+                getString(R.string.its_people_title),
+                getString(R.string.its_people_address),
+                getString(R.string.its_people_description),
+                "pic_people2"
         ));
         PeopleItemsArrayList.add(new ItemsDomain(
-                "House with a great view",
-                "株式会社ITPM本社・執務室",
-                "This 2 bed /1 bath home boasts an enormouse,\n" +
-                "open-living plan, accented by striking \n" +
-                "architecTural features and high-end finishes.\n" +
-                " Feel inspired by open sight lines that\n" +
-                "embrace the outdoors, crowned by stunnin\n" +
-                " coffersd ceilings. ",
-                "pic1"
+                getString(R.string.sales_department_people_title),
+                getString(R.string.sales_department_people_address),
+                getString(R.string.sales_department_people_description),
+                "pic_people3"
         ));
         PeopleItemsArrayList.add(new ItemsDomain(
-                "管理部の人々",
-                "株式会社ITPM本社・執務室",
-                "",
+                getString(R.string.management_people_title),
+                getString(R.string.management_people_address),
+                getString(R.string.management_people_description),
                 "pic_people4"
         ));
 

@@ -25,4 +25,16 @@
     <string name="itpm_conference_and_exhibition_address">oVice（ヴァーチャルオフィス）</string>
     <string name="itpm_conference_and_exhibition_description">ITPM社員がITに関する情報交換や意見を出し合うことができる社内イベント「ITPM CONFERENCE AND EXHIBITION」略して「ICE（アイス）」。\nITPM社員が現場で得た技術や、目標業務に向けて努力してきた成果の共有の場。\nまた、同じ社員同士でも行っている業務は様々、というSESの特徴を逆に活かし、自分がまだ経験していないITの業務知識やノウハウについて共有できる場を提供できないかと考えたのがきっかけです。\n３回目となるMelon ICEでは「拡張」をテーマとしており、前回に引き続き今回もハッカソンに挑戦しました\nまた、発表においても様々な「拡張」について発表を行いました。</string>
     <string name="liked">いいねをしました。</string>
+    <string name="management_people_title">管理部の人々</string>
+    <string name="management_people_address">株式会社ITPM本社・執務室</string>
+    <string name="management_people_description"></string>
+    <string name="sales_department_people_title">営業部の人々</string>
+    <string name="sales_department_people_address">株式会社ITPM本社・ファミレス席</string>
+    <string name="sales_department_people_description"></string>
+    <string name="its_people_title">ITSの人々</string>
+    <string name="its_people_address">株式会社ITPM本社・会議室</string>
+    <string name="its_people_description"></string>
+    <string name="hr_department_people_title">HR統括部の人々</string>
+    <string name="hr_department_people_address">株式会社ITPM本社・執務室</string>
+    <string name="hr_department_people_description"></string>
 </resources>

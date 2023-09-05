@@ -1,7 +1,7 @@
 # ITPM-アプリ開発体験アプリ
 
 ![top](https://github.com/MasakiSakamotoNeo/ITPM-IntroductionApp/assets/20450429/e710f7c8-a3af-41f9-9302-7ad084ba9ac8)
-![main](https://github.com/MasakiSakamotoNeo/ITPM-IntroductionApp/assets/20450429/c85ed7dc-a4eb-4b6f-9a9e-50239f5b6b7f)
+![main](https://github.com/MasakiSakamotoNeo/ITPM-IntroductionApp/assets/20450429/14095728-fe23-4417-a6cb-6f41b3ef1ef6)
 ![description](https://github.com/MasakiSakamotoNeo/ITPM-IntroductionApp/assets/20450429/a8d65cd0-9add-4cbc-acaf-dfe161d7d7cf)
 
 ## 概要
@@ -16,10 +16,10 @@
 体験会では、このアプリについての３つの改修作業に挑戦して頂きます。
 
 1. TOP画面のスタートボタンの改修  
-　スタートボタンに表示されている文言の変更。
+　スタートボタンに表示されている文言の変更に挑戦。
 
 2. Main画面の画像の改修  
-　Main画面のXXで使用している画像の差し替え。
+　Main画面のPeopleで使用している画像の差し替えに挑戦。
 
 3. 詳細画面の「いいね」ボタン機能の改修  
-　詳細画面の「いいね」ボタンタップ時の機能追加。  
+　詳細画面の「いいね」ボタンタップ時の機能追加に挑戦。  

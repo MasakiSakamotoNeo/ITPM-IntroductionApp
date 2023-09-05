@@ -50,13 +50,13 @@ public class MainActivity extends AppCompatActivity {
                 getString(R.string.sales_department_people_title),
                 getString(R.string.sales_department_people_address),
                 getString(R.string.sales_department_people_description),
-                "pic_people3"
+                "pic_people5"
         ));
         PeopleItemsArrayList.add(new ItemsDomain(
                 getString(R.string.management_people_title),
                 getString(R.string.management_people_address),
                 getString(R.string.management_people_description),
-                "pic_people4"
+                "pic_people6"
         ));
 
         // Info表示用データ作成

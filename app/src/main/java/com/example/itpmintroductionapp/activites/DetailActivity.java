@@ -63,7 +63,7 @@ public class DetailActivity extends AppCompatActivity {
     }
 
     /**
-     * いいねメッセージ表示
+     * いいねメッセージ表示用メソッド
      * @param view
      */
     private void showSnackBar(View view) {
